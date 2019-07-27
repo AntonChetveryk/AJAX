@@ -50,7 +50,7 @@ function ownFetch(url, cb) {
 console.log('        Users');
 
 let users = [];
-const API = 'http://jsonplaceholder.typicode.com/';
+const API = 'https://jsonplaceholder.typicode.com/';
 const nameEl = document.getElementById('name');
 const emailEl = document.getElementById('email');
 const btnCreate = document.getElementById('create');
