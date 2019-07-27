@@ -97,6 +97,7 @@ function deleteUsers(userId) {
 }
 
 function renderUsers() {
+	container.innerHTML = '';
 	users.forEach((user) => {
 		const div = document.createElement('div');
 		div.style.marginTop = '50px';
